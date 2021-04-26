@@ -1,0 +1,18 @@
+{
+    "name": "react-express-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "/server/app.js",
+    "author": "Alexandra",
+    "scripts": {
+        "client": "cd server && npm install && npm start",
+        "server": "cd client && npm install && npm start",
+        "heroku-postbuild": "concurrent \"npm install\" \"npm run client\" \"npm run server\""
+    },
+    "keywords": [],
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^1.0.0",
+        "express": "^4.16.3"
+    }
+}
