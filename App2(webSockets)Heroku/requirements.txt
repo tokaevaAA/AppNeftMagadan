@@ -1,0 +1,7 @@
+numpy
+pandas
+xlrd
+openpyxl
+matplotlib
+plotly
+scikit-learn==0.21.3
